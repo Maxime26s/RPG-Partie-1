@@ -1,6 +1,6 @@
 public class MortSubite extends Sort{
     public MortSubite() {
-        setCout(5);
+        setCout(10);
         setNom("Mort Subite");
     }
 

@@ -27,7 +27,5 @@ public abstract class Personnage{
         this.nom = nom;
     }
 
-    public void attaque(Personnage personnage){
-
-    }
+    public abstract void attaque(Personnage personnage);
 }

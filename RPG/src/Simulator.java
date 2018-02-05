@@ -64,18 +64,19 @@ public class Simulator {
             }
         }
         choix=0;
+        System.out.println("");
         while(true) {
-            System.out.println("");
             if(personnage1.getPv()>0){
                 personnage1.attaque(personnage2);
+                System.out.println("");
             }
             else{
                 System.out.println("Le "+personnage1.getNom()+" est mort, le "+personnage2.getNom()+" a gagné!");
                 System.exit(0);
             }
-            System.out.println("");
             if(personnage2.getPv()>0){
                 personnage2.attaque(personnage1);
+                System.out.println("");
             }
             else{
                 System.out.println("Le "+personnage2.getNom()+" est mort, le "+personnage1.getNom()+" a gagné!");

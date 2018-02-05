@@ -34,5 +34,8 @@ public class Magicien extends Personnage{
             sort[rng].lancerSort(personnage);
             System.out.println(" points de vie. Il lui en reste "+personnage.getPv()+".");
         }
+        else{
+            System.out.println("Le "+getNom()+" n'a pas assez de magie pour "+getSort()[rng].getNom()+"!");
+        }
     }
 }
